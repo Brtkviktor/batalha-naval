@@ -12,7 +12,7 @@ int main(){
     int coluna_horizontal = 4;
 
     int linha_vertical = 6;
-    int coluna_vertical = 1;
+    int coluna_vertical = 3;
 
     // Posiciona navio horizontal
     for (int i = 0; i < tam_navio; i++) {
@@ -32,7 +32,7 @@ int main(){
         printf("%c ", letra);
     }
     printf("\n");
-    
+
     // Exibe o tabuleiro
     for (int i = 0; i < 10; i++) {
         printf("%2d ", i); // Número da linha
