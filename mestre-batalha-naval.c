@@ -5,7 +5,6 @@
 
 int main()
 {
-
     int tabuleiro[TAM_TABULEIRO][TAM_TABULEIRO];
     int cone[TAM_HABILIDADE][TAM_HABILIDADE]; // Matrizes principais
     int cruz[TAM_HABILIDADE][TAM_HABILIDADE];
@@ -13,7 +12,6 @@ int main()
     int i, j; // contadores de loop
 
     // Inicializar tabuleiro com água (valor 0)
-
     // Zerar matriz
     for (i = 0; i < TAM_TABULEIRO; i++)
     {
@@ -48,7 +46,6 @@ int main()
     }
 
     // Criar matriz da habilidade Cruz
-
     for (i = 0; i < TAM_HABILIDADE; i++)
     {
         for (j = 0; j < TAM_HABILIDADE; j++)
@@ -66,7 +63,6 @@ int main()
     }
 
     // Criar matriz da habilidade Octaedro (losango)
-
     // Zerar matriz
     for (i = 0; i < TAM_HABILIDADE; i++)
     {
@@ -98,7 +94,6 @@ int main()
     }
 
     // Aplicar HABILIDADE CONE no tabuleiro
-
     int offset = TAM_HABILIDADE / 2; // usado para centralizar a matriz
 
     // Define posição central da habilidade Cone no tabuleiro
@@ -126,7 +121,6 @@ int main()
     }
 
     // Aplicar HABILIDADE CRUZ no tabuleiro
-
     origemLinha = 2;
     origemColuna = 3;
 
@@ -148,7 +142,6 @@ int main()
     }
 
     // Aplicar HABILIDADE OCTAEDRO no tabuleiro
-
     origemLinha = 5;
     origemColuna = 7;
 
